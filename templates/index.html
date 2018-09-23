@@ -1,0 +1,39 @@
+<!DOCTYPE >
+<html>
+<head>
+	<title>G&G</title>
+    <link href="/static/style/home.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+</head>
+    <script type="text/javascript" src="/static/js/jquery-1.4.2.min.js"></script>
+<body>
+<!--网站顶部-->
+<div class="webtop">
+{% include "top.html"%}
+</div>
+
+
+<!--搜索和导航-->
+<div class="sounav">
+{% include "search.html"%}
+</div>
+
+
+<div class="sp_banner">
+{% include "image.html" %}
+</div>
+<div class="clearfix">
+    {% include "news.html" %}
+</div>
+
+
+
+<!--foot-->
+<div class="footer">
+    {% include "foot.html" %}
+</div>
+
+
+</body>
+</html>
